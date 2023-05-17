@@ -18,7 +18,7 @@ public class RetrofitClient {
 
 
         private static Retrofit retrofit;
-        private static final String BASE_URL = "https://simplifiedcoding.net/demos/";
+        private static final String BASE_URL = "https://www.themealdb.com/api/json/";
 
         public static Retrofit getRetrofitInstance() {
             if (retrofit == null) {
